@@ -7,7 +7,7 @@ $c = 6;
 
 if ($a<= $b && $a<=$c && $b<=$c) {
     print("$a - $b - $c ");
-} elseif($a <=$b && $b>=$c){
+} elseif($a<= $b && $a<=$c && $b>=$c){
     print("$a - $c - $b ");
 } elseif($b<= $a && $b<$c && $a>$c){
     print("$b - $c - $a");
