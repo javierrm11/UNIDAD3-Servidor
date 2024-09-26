@@ -50,7 +50,7 @@ $colorFondo = obtenerColorFondo();
     <title>Javier Ruiz</title>
     <style>
         body{
-            background-color: <?= $colorFondo ?>;
+            background-color: <?= $colorFondo ?>; /* color de fondo con = */
         }
         img{
             width: 90vw;
@@ -62,6 +62,6 @@ $colorFondo = obtenerColorFondo();
 </head>
 <body>
     <h1>Imagen cabecera</h1>
-    <img src="<?= $imagenCabecera ?>" alt="">
+    <img src="<?= $imagenCabecera ?>" alt=""> <!-- imagen de cabecera -->
 </body>
 </html>
