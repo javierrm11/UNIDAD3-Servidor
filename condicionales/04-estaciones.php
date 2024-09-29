@@ -6,16 +6,16 @@ function obtenerImagenEstacion() {
     // Asignar imagen en función del mes (estación del año)
     if ($mes >= 3 && $mes <= 5) {
         // Primavera
-        return "./img/primavera.jpeg";
+        return "../img/primavera.jpeg";
     } elseif ($mes >= 6 && $mes <= 8) {
         // Verano
-        return "./img/verano.jpeg";
+        return "../img/verano.jpeg";
     } elseif ($mes >= 9 && $mes <= 11) {
         // Otoño
-        return "./img/otono.jpeg";
+        return "../img/otono.jpeg";
     } else {
         // Invierno
-        return "./img/invierno.jpeg";
+        return "../img/invierno.jpeg";
     }
 }
 // Definir color de fondo según la hora del día
