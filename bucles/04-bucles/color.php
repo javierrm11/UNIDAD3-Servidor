@@ -37,7 +37,7 @@ $color = isset($_GET['color']) ? $_GET['color'] : '#FFFFFF'; // Color blanco por
 <body>
     <div>
         <h1>Este es el color: <?php echo $color; ?></h1>
-        <a href="paleta.php">Volver a la paleta de colores</a>
+        <a href="palet.php">Volver a la paleta de colores</a>
     </div>
 </body>
 </html>
