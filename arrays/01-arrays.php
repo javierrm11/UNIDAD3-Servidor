@@ -20,3 +20,42 @@ $mesesAnio = [
     "Noviembre",
     "Diciembre"
 ];
+$notasAlumnos =[
+ "Javier" => 6,
+ "Manuel" => 8,
+ "Alejandro" => 2,
+ "Lucia" => 5,
+ "Pedro" => 8,
+ "Pepe" => 6,
+ "Carmen" => 5,
+ "Estefania" => 1,
+ "Luis" => 9,
+ "Hector" => 6
+];
+
+$geografia = [
+    "Africa" => [
+        "Marruecos" => [
+            ["rabat"]
+        ],
+        "Dambia" => [
+
+        ]
+    ],
+    "Europa" => [
+        "España" => [
+
+        ],
+        "Frnacia" => [
+
+        ];
+    ],
+    "Asia" => [
+        "China" => [
+
+        ],
+        "Japon" => [
+
+        ];
+    ];
+];
