@@ -10,9 +10,14 @@
             text-align: center;
         }
         td {
-            color: #c440bd;
+            color: #ffffff;
             padding: 1rem;
             font-family: monospace;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
         }
     </style>
 </head>
@@ -21,9 +26,9 @@
     <table>
     <?php
     // Incremento en cada componente RGB para hacer un degradado progresivo
-    $incrementR = 30;  // Incremento  Rojo
-    $incrementG = 10;  // Incremento  Verde
-    $incrementB = 10;  // Incremento  Azul
+    $incrementR = 30;  // Incremento en el valor del Rojo
+    $incrementG = 10;  // Incremento en el valor del Verde
+    $incrementB = 10;  // Incremento en el valor del Azul
     
     for ($r = 0; $r <= 255; $r += $incrementR) {  // Rojo cambia lentamente
         echo "<tr>";
@@ -31,7 +36,12 @@
             $b = $g / 2;  // Azul es la mitad del valor de Verde
             // Convertir valores RGB a hexadecimal
             $hex = sprintf("#%02x%02x%02x", $r, $g, $b);
-            echo "<td style='background-color: $hex;'>$hex</td>";
+            // Escapar el valor del color para la URL
+            $hex_encoded = urlencode($hex);
+            // Mostrar el color en una celda con un enlace a la página 'color.php'
+            echo "<td style='background-color: $hex;'>
+                    <a href='./color.php?color=$hex_encoded'>$hex</a>
+                  </td>";
         }
         echo "</tr>";
     }

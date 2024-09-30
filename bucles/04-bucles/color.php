@@ -1,6 +1,6 @@
 <?php
 // Obtener el valor del color de la URL
-$color = isset($_GET['color']) ? $_GET['color'] : '#FFFFFF'; // Color blanco por defecto
+$color = isset($_GET['color']) ? htmlspecialchars($_GET['color']) : '#FFFFFF'; // Color blanco por defecto
 ?>
 
 <!DOCTYPE html>
