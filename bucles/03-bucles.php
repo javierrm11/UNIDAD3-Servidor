@@ -1,5 +1,11 @@
+<?php
+/**
+ * Enunciado:
+ * Tablas de multiplicar del 1 al 10. Aplicar estilos en filas/columnas
+ * @author Javier Ruiz Molero 
+ **/
+?>
 <!DOCTYPE html>
-<!-- Tablas de multiplicar del 1 al 10. Aplicar estilos en filas/columnas -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">

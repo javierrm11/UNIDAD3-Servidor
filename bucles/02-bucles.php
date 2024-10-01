@@ -1,5 +1,9 @@
 <?php
-/* Sumar los 3 primeros números pares. */
+/**
+ * Enunciado:
+ * Sumar los 3 primeros números pares
+ * @author Javier Ruiz Molero 
+ **/
 
 // Declarar variables
 $suma = 0;
