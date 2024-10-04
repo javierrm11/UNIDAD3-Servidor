@@ -48,6 +48,12 @@ function mostrarEjercicios($carpeta, $archivos) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice de Ejercicios</title>
+    <style>
+        h1{
+            font-size: 2rem;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
 
